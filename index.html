@@ -101,14 +101,16 @@
       text-align: center;
     }
     .linkedin-icon {
-      display: inline-block;
-      margin-top: 10px;
-      width: 24px;
-      height: 24px;
-      fill: var(--primary);
-      transition: fill 0.3s ease;
-      align-self: center;
-    }
+  display: inline-block;
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+  fill: var(--primary);
+  transition: fill 0.3s ease;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
     .linkedin-icon:hover {
       fill: #e55b00;
     }
@@ -150,14 +152,29 @@
   </section>
 
   <section class="section">
-    <h2>What We Do</h2>
-    <ul>
-      <li><strong>Strategy & Growth:</strong> Vision, Business Model, Org Design, GTM, Offline & Digital Growth</li>
-      <li><strong>Technology Advisory:</strong> Tech Architecture, AI & Data Science, Enterprise SaaS, Security</li>
-      <li><strong>Fundraising & Transactions:</strong> Strategic Investments, Fund Raises, M&A, Due Diligence</li>
-      <li><strong>Finance & Governance:</strong> MIS, Financial Rigor, Compliance, Board Reporting</li>
-    </ul>
-  </section>
+  <h2>What We Do</h2>
+  <div style="text-align: center; margin-bottom: 2rem;">
+    <img src="images/what-we-do.jpg" alt="What We Do" style="width: 100%; max-width: 800px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.2);" />
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 2rem;">
+    <div style="text-align: center;">
+      <img src="icons/strategy.png" alt="Strategy" style="width: 48px; margin-bottom: 0.5rem;" />
+      <p><strong>Strategy & Growth</strong><br />Vision, Business Model, Org Design, GTM, Offline & Digital Growth</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="icons/tech.png" alt="Technology" style="width: 48px; margin-bottom: 0.5rem;" />
+      <p><strong>Technology Advisory</strong><br />Tech Architecture, AI & Data Science, Enterprise SaaS, Security</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="icons/fundraise.png" alt="Fundraising" style="width: 48px; margin-bottom: 0.5rem;" />
+      <p><strong>Fundraising & Transactions</strong><br />Strategic Investments, Fund Raises, M&A, Due Diligence</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="icons/finance.png" alt="Finance" style="width: 48px; margin-bottom: 0.5rem;" />
+      <p><strong>Finance & Governance</strong><br />MIS, Financial Rigor, Compliance, Board Reporting</p>
+    </div>
+  </div>
+</section>
 
   <section class="section">
   <h2>Led by Stalwart Partners</h2>
